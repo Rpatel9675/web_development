@@ -1,0 +1,47 @@
+.pet{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+img{
+    width: 100%;
+    border-radius: 3%;
+    /* padding: 10px 10px 10px 10px; */
+
+}
+.text{
+    height: 600px;
+    width: 300px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+h2{
+    text-align: right;
+    color: orange;
+}
+h1{
+    color: rgba(255, 110, 40, 0.6);
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: rgba(53, 179, 41, 0.6);
+    
+}
+@media (max-width: 375px){
+    .content{
+        flex-wrap: wrap;
+    }
+    /* flex-wrap: wrap; */
+
+}

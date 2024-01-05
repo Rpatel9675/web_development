@@ -1,0 +1,16 @@
+console.log(1);
+let arr=[1,3,4,5];
+let newarr=arr;
+console.log(newarr);
+newarr.push(8);
+console.log(newarr);
+console.log( ".........");
+console.log(arr);
+let arr1=[...arr];
+console.log(arr1);
+arr1.push(0);
+console.log(arr1);
+console.log( ".........");
+console.log(arr);let r="rocky";
+let p=[...r];
+console.log(p);

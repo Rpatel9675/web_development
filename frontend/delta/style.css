@@ -1,0 +1,80 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #bd1212;
+    color: white;
+}
+
+h1, h3 {
+    color: #bd1212;
+}
+
+.upvote {
+    background-color: rgb(8, 97, 8);
+    color: white;
+}
+
+
+
+.upvote {
+    background-color: rgb(8, 97, 8);
+}
+
+div>input{
+    background-color: rgb(179, 176, 176);
+    color: black;
+
+}
+.upvote + span button {
+    background-color: rgb(19, 80, 211);
+    color: black; 
+}
+.upvote>button{
+    background-color: red;
+}
+
+p a {
+    color: rgb(59, 15, 141);
+    background-color: yellow;
+}
+
+nav ul li a {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+}
+input[type="password"]{
+    color: green;
+}
+input[type="text"]{
+     color: #bd1212;
+}
+h3::hover{
+    text-decoration: underline;
+}
+button:hover{
+    background-color: rgb(223, 18, 18);
+    color: white;
+}
+button::active{
+    background-color: chocolate;
+} 
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+} 
+p::selection{
+    color: black;
+    background-color: rgb(231, 231, 138);
+
+}
+
+

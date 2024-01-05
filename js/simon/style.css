@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+.classa{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 5px solid black;
+    text-align: auto;
+    border-radius: 20%;
+    margin: 1rem;
+}
+.classb{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(153, 105, 202);
+    border: 5px solid black;
+    border-radius: 20%;
+    margin: 1rem;
+
+}
+.classc{
+    height: 200px;
+    width: 200px;
+    background-color: #d95980;
+    border: 5px solid black;
+    border-radius: 20%;
+    margin: 1rem;
+
+}
+.classd{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 5px solid black;
+    border-radius: 20%;
+    margin: 1rem;
+
+}
+.btn_container{
+    display: flex;
+    justify-content: center;
+}

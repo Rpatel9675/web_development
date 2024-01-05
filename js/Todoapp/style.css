@@ -1,0 +1,17 @@
+button{
+    box-shadow: 2px 2px 5px rgb(15, 14, 14);
+}
+button{
+    background-color: rgb(151, 54, 54);
+    color: white;
+}
+.add{
+    background-color: green;
+    color: rgb(245, 237, 237);
+}
+input{
+    background-color: darkgrey;
+}
+table{
+    background-color: antiquewhite;
+}

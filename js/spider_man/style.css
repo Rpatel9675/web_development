@@ -1,0 +1,24 @@
+#description{
+    background-color: rgb(223, 216, 194);
+}
+#mainImg{
+    width: 35%;
+}
+.box{
+    background-color: lightgray;
+    border: 0.4px solid black;
+    width: 200px;
+    padding-left: 1rem;
+}
+.oldImg{
+    height: 200px;
+    width: 200px;
+    margin-right: 1rem;
+  }
+.boxLink{
+    text-decoration: none;
+
+}  
+.red{
+    color: red;
+}

@@ -1,0 +1,50 @@
+.emoji{
+    height: 550px;
+    width: 550px;
+    background-color: rgb(190, 168, 168);
+    border: 2px solid black;
+    padding-left: 110px;
+    padding-top: 110px;
+}
+.face:hover{
+    background-color: rgba(255, 0, 0, 0.7);
+}
+.face{
+    height: 400px;
+    width: 400px;
+    background-color: #ffa511;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.eye{
+    
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 50%;
+    
+}
+#eye1{
+    position: absolute;
+    top: 220px;
+    left: 200px;
+
+}
+#eye2{
+    position: absolute;
+    top: 220px;
+    left: 350px;
+
+}
+.mouth{
+    height: 75px;
+    width: 200px;
+    background-color: brown;
+   border-bottom-left-radius: 40%;
+   border-bottom-right-radius: 40%;
+   position: absolute;
+    top: 375px;
+    left: 225px;
+}
