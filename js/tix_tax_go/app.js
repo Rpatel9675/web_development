@@ -6,16 +6,30 @@ let move= document.querySelector("move");
 let arr=[];
 let person1=[];
 let person2=[];
-let wining=[
-    [1,2,3],
-    [4,5,6],
-    [7,8,9],
-    [1,5,9],
-    [3,5,7],
-    [1,4,7],
-    [2,5,8],
-    [3,6,9]
-];
+
+function checkForWin() {
+    let cells = Array.from(document.getElementsByTagName('td'));
+    let winning = [
+        [1, 2, 3], 
+        [4, 5, 6], 
+        [7, 8, 9], 
+        [1, 4, 7],
+        [2, 5, 8],
+        [3, 6, 9], 
+        [1, 5, 9], 
+        [3, 5, 7] 
+    ];
+    
+
+    return false;
+}
+function resetGame() {
+    Array.from(document.getElementsByTagName('td')).forEach(b => {
+        b.innerText = '';
+    });
+    x = 0;
+    arr=[];
+}
 button.addEventListener('click', function(){   
     let pos="row";
     let newPos= pos+ input.value;
@@ -29,6 +43,20 @@ button.addEventListener('click', function(){
         input.value="";
     }
     else{
+        if (x >= 5) {
+            if (checkForWin()) {
+                alert('Player ' + x%2 + ' wins!');
+                resetGame();
+                return;
+            }
+        }
+
+        // Check for a tie
+        if (x === 9 && !checkForWin()) {
+            alert('It\'s a tie!');
+            resetGame();
+            return;
+        }
         if(x%2==0){
             b.innerText="X";
             x++;
