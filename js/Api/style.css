@@ -1,0 +1,14 @@
+
+h1{
+    margin-left: 50%;
+}
+body button{
+    background-color: green;
+    color: white;
+    margin-left: 50%;
+    
+    
+}p{
+    background-color: yellow;
+    display: inline-block;
+}
